@@ -1,0 +1,22 @@
+# Ignore node_modules in backend and job-matching-platform
+node_modules
+backend/node_modules/
+job-matching-platform/node_modules/
+flaskbackend/venv/include
+flaskbackend/venv/lib
+flaskbackend/venv/scripts
+# Ignore all .env files
+.env
+backend/.env
+job-matching-platform/.env
+flaskbackend/venv/pyvenv.cfg
+
+# Ignore logs
+*.log
+logs/
+backend/logs/
+job-matching-platform/logs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
